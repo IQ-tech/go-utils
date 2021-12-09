@@ -4,7 +4,7 @@
 go get github.com/IQ-tech/go-utils
 ```
 
-## Executing code before process exists
+## Executing code before process exits
 
 `AtInterruption` receives a function that will be called once before the process exits.  
 `AtInterruption` can be called many times with different functions and each function will be
